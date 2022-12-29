@@ -4,7 +4,7 @@ Sigmoidator is a simple React component that which allows users to enter values 
 
 ## Demo
 
-
+https://sigmoidator.vercel.app
 
 ## Installation
 
