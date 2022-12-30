@@ -21,6 +21,9 @@ export default function Form({ onSubmit, defaultSeries }) {
 
   const handleSubmit = (e) => {
     e.preventDefault()
+    if (error) {
+      return
+    }
     onSubmit(inputs)
   }
   return (
