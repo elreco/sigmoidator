@@ -13,7 +13,7 @@ export default function Form({ onSubmit, defaultSeries }) {
 
   useEffect(() => {
     if (inputs.start > inputs.end) {
-      setError('Start value should be lower to end value')
+      setError('Start value must be less than end value')
     } else {
       setError('')
     }
